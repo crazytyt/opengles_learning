@@ -22,7 +22,7 @@ LDFLAGS := -Wl,-z,defs
 # Supply necessary libraries.
 
 LDLIBS := -L/usr/local/lib \
-          -l:gbm_viv.so -lwayland-client -lEGL -lGLESv2
+          -l:gbm_viv.so -lwayland-client -lEGL -lGLESv2 -lm -lVDK
 
 ################################################################################
 # Describe object files.
